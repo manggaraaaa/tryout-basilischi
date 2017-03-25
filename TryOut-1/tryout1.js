@@ -8,9 +8,9 @@ function Hitung(file) {
     var fileArray = file.toString().toLowerCase().split(' ');
     var kUnik = _.uniq(fileArray);
     var kAll = _.countBy(file);
-    result.push('Jumlah semua kata: '+fileArray.length);
-    result.push('Jumlah kata yang unik: '+kUnik.length);
-    result.push('Jumlah kata yang unik dan jumlahnya masing-masing:');
+    HasilHitung.push('Jumlah semua kata: '+fileArray.length);
+    HasilHitung.push('Jumlah kata yang unik: '+kUnik.length);
+    HasilHitung.push('Jumlah kata yang unik dan jumlahnya masing-masing:');
     _.forEach(kAll, function(value, key){
         result.push(key+':'+value);
     });
@@ -20,15 +20,15 @@ function Hitung(file) {
         return parseInt(val);
     }).filter(Boolean);
 
-    result.push('Ada '+ Angka.length +' angka: '+ Angka.join(', '));
+    HasilHitung.push('Ada '+ Angka.length +' angka: '+ Angka.join(', '));
     Angka = Angka.reduce(function(acc, val){ 
     	return acc + val
     }, 0);
 
-    result.push('Jumlah semua angka: '+Angka);
+    HasilHitung.push('Jumlah semua angka: '+Angka);
 
   	//Tampilkan data
-    _.forEach(result, function(value){
+    _.forEach(HasilHitung, function(value){
         console.log(value);
     });
     return true;
