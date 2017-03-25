@@ -12,7 +12,7 @@ function Hitung(file) {
     HasilHitung.push('Jumlah kata yang unik: '+kUnik.length);
     HasilHitung.push('Jumlah kata yang unik dan jumlahnya masing-masing:');
     _.forEach(kAll, function(value, key){
-        result.push(key+':'+value);
+        HasilHitung.push(key+':'+value);
     });
 
     //Deklarasikan angka
