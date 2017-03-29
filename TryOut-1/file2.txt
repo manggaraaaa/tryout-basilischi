@@ -1,0 +1,11 @@
+Karena ML itu terlihat seksi
+…dan karena menyesuaikan ekspektasi ternyata susah!
+by. Jim Geovedi on medium.com Dec 9, 2016.
+
+Saya biasanya akan merujuk pada penjelasan panjang dari Oxford Dictionaries: Artificial Intelligence (Kecerdasan Buatan) adalah teori dan pengembangan sistem komputer yang mampu melakukan sejumlah tugas yang biasanya membutuhkan kecerdasan manusia seperti persepsi visual, pengenalan suara, pengambilan keputusan dan translasi antar bahasa. Namun, saya juga sering menggunakan penjelasan singkat yaitu kecerdasan yang diperlihatkan oleh mesin.
+
+Bayangan kecerdasan yang sudah sering diumbar dalam karya-karya fiksi ilmiah modern, seperti 2001: A Space Odyssey atau Star Trek, dan sering menjadi tolok ukur ekspektasi manusia terhadap pengembangan teknologi kecerdasan buatan. Terjadi percepatan dalam pengembangan dan pendanaan pada penelitian di area tersebut pada era 1960-an. Namun, Kecerdasan Buatan punya banyak tantangan yang sulit untuk dipecahkan, sampai akhirnya pada awal tahun 1970-an terjadi penurunan drastis dan hilangnya kepercayaan banyak pihak yang mendanai pengembangan. Di kalangan pengembang, kondisi tersebut adalah “AI Winter” dan butuh waktu satu dekade untuk bisa bangkit kembali setelah sejumlah inisiatif komersil muncul dengan target-target yang cenderung realistis dan tidak seambisius sebelumnya.
+
+Sampai saat ini Kecerdasan Buatan yang sesungguhnya memang belum tersedia, namun jawaban terhadap pertanyaan “Apa yang Kecerdasan Buatan bisa lakukan dalam kehidupan kita?” bisa diperlihatkan oleh implementasi kecerdasan buatan yang lebih sederhana bentuknya, dan tentunya realistis. Implementasi tersebut sudah lama tersedia dan digunakan dalam kehidupan modern kita sehari-hari, seperti program SIRI yang dikembangkan Apple untuk menyediakan layanan asisten personal dan navigator pengetahuan, mekanisme rekomendasi teman atau post di Facebook, layanan “OK, Google” yang sudah mulai mengerti bahasa Indonesia dengan baik atau “autonomous cars” yang dikembangkan oleh Tesla, Google atau Baidu.
+
+Selengkapnya di (https://medium.com/curahan-rekanalar/karena-ml-itu-terlihat-seksi-f1fe2820fe48)

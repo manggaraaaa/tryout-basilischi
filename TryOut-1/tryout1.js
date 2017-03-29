@@ -1,13 +1,19 @@
 var fs = require('fs');
 var file = '';
 var _ = require('lodash');
+var namafile = process.argv[2];
 
+//generate file dinamis
+if (process.argv.length < 3) {
+  console.log('Usage: node ' + process.argv[1] + ' FILENAME');
+  process.exit(1);
+}
 
 function Hitung(file) {
     var HasilHitung = [];
     var fileArray = file.toString().toLowerCase().split(' ');
     var kUnik = _.uniq(fileArray);
-    var kAll = _.countBy(file);
+    var kAll = _.countBy(fileArray);
     HasilHitung.push('Jumlah semua kata: '+fileArray.length);
     HasilHitung.push('Jumlah kata yang unik: '+kUnik.length);
     HasilHitung.push('Jumlah kata yang unik dan jumlahnya masing-masing:');
@@ -34,7 +40,7 @@ function Hitung(file) {
     return true;
 }
 
-fs.readFile('file1.txt', 'utf8', function(err, data){
+fs.readFile(namafile, 'utf8', function(err, data){
     if(err) throw err;
     file = data;
     Hitung(file); 
